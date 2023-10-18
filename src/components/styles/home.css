@@ -1,0 +1,23 @@
+.home {
+    height: calc(100vh - 86px);
+    padding: 20px;
+    text-align: center;
+}
+
+.home h3 {
+    color: #fff;
+}
+
+.home h1 {
+    margin: 0;
+    font-weight: 900;
+    font-size: 40px;
+    color: var(--yellow);
+}
+
+@media screen and (min-width: 992px) {
+    .home h1 {
+        font-size: 47px;
+    }
+}
+

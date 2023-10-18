@@ -1,0 +1,89 @@
+.la-peña {
+    /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='360' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1103%26quot%3b)' fill='none'%3e%3cpath d='M -31.310195241431245%2c323 C 9.89%2c308.2 92.29%2c248 174.68980475856876%2c249 C 257.09%2c250 298.29%2c355.4 380.68980475856876%2c328 C 463.09%2c300.6 504.29%2c89 586.6898047585687%2c112 C 669.09%2c135 710.29%2c422.8 792.6898047585687%2c443 C 875.09%2c463.2 916.29%2c229.8 998.6898047585687%2c213 C 1081.09%2c196.2 1122.29%2c352.8 1204.6898047585687%2c359 C 1287.09%2c365.2 1328.29%2c233.2 1410.6898047585687%2c244 C 1493.09%2c254.8 1610.83%2c425.4 1616.6898047585687%2c413 C 1622.55%2c400.6 1475.34%2c228.2 1440%2c182' stroke='rgba(11%2c 13%2c 61%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -252.26129836046684%2c229 C -211.06%2c262.4 -128.66%2c408.8 -46.261298360466846%2c396 C 36.14%2c383.2 77.34%2c155.8 159.73870163953316%2c165 C 242.14%2c174.2 283.34%2c454.6 365.73870163953313%2c442 C 448.14%2c429.4 489.34%2c133.4 571.7387016395331%2c102 C 654.14%2c70.6 695.34%2c272.4 777.7387016395331%2c285 C 860.14%2c297.6 901.34%2c137.4 983.7387016395331%2c165 C 1066.14%2c192.6 1107.34%2c418.8 1189.7387016395332%2c423 C 1272.14%2c427.2 1345.69%2c189.8 1395.7387016395332%2c186 C 1445.79%2c182.2 1431.15%2c360.4 1440%2c404' stroke='rgba(11%2c 13%2c 61%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -88.62865581304234%2c187 C -47.43%2c213.4 34.97%2c330.6 117.37134418695766%2c319 C 199.77%2c307.4 240.97%2c118 323.3713441869577%2c129 C 405.77%2c140 446.97%2c360.6 529.3713441869577%2c374 C 611.77%2c387.4 652.97%2c191.4 735.3713441869577%2c196 C 817.77%2c200.6 858.97%2c396 941.3713441869577%2c397 C 1023.77%2c398 1064.97%2c221.4 1147.3713441869577%2c201 C 1229.77%2c180.6 1270.97%2c281.8 1353.3713441869577%2c295 C 1435.77%2c308.2 1542.05%2c235 1559.3713441869577%2c267 C 1576.7%2c299 1463.87%2c417.4 1440%2c455' stroke='rgba(255%2c 200%2c 9%2c 1)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1103'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e"); */
+    background-color: #fff;
+}
+
+.la-peña-content {
+    padding: 20px;
+    max-width: 670px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.la-peña-content h3 {
+    padding-left: 5px;
+}
+
+.la-peña-content b {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--blue2);
+}
+
+.la-peña-content-logo {
+    max-width: 150px;
+    max-height: 150px;
+    margin: 10px;
+}
+
+.la-peña-content-logo img {
+    width: 100%;
+}
+
+.la-peña-contacto {
+    background-color: var(--yellow);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.la-peña-contacto svg {
+    color: var(--blue2);
+}
+
+.la-peña-contacto p {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--blue);
+}
+
+.la-peña-contacto p a {
+    text-decoration: none;
+    color: var(--blue2);
+    font-weight: 600;
+}
+
+.la-peña-contacto-redes a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--blue);
+    flex-direction: column;
+    gap: 5px;
+    padding: 0 10px;
+}
+
+.la-peña-contacto-redes a svg {
+    color: var(--blue2);
+}
+
+.la-peña-contacto-redes a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 576px) {
+    .la-peña-content {
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .la-peña-content p {
+        font-size: 17px;
+    }
+
+    .la-peña-contacto-redes a{
+        flex-direction: row;
+        font-size: 16px;
+        padding: 10px 25px 0;
+    }
+}

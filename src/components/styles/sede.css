@@ -1,0 +1,42 @@
+.sede-title {
+    color: #fff;
+    margin: 30px 0 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+.sede-description {
+    padding: 20px;
+    color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.sede-description b {
+    color: var(--yellow);
+}
+
+.sede span {
+    text-align: center;
+    display: block;
+    color: #ffffff68;
+    font-size: 14px;
+}
+
+.sede-carrouseles {
+    gap: 0 40px;
+    flex-wrap: wrap;
+}
+
+.proyecto-terminado {
+    max-height: 375px;
+    margin: 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .sede-carrouseles {
+        
+    }
+
+    
+}

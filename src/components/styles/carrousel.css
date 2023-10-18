@@ -1,0 +1,33 @@
+.carrousel-container {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.sede-carrousel-title {
+    text-align: center;
+    margin: 40px 0 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--yellow);
+}
+
+.carrousel {
+    margin: 20px auto 0;
+    cursor: pointer;
+    min-width: 200px;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.carrousel-img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media screen and (min-width: 768px) {
+    .carrousel-container {
+        width: 400px;
+    }
+}

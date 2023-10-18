@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/arroyosecoesdeboca/static/css/main.1d5b041f.css",
+    "main.js": "/arroyosecoesdeboca/static/js/main.d7d193f5.js",
+    "static/js/787.8800a120.chunk.js": "/arroyosecoesdeboca/static/js/787.8800a120.chunk.js",
+    "static/media/logoPeña.jpeg": "/arroyosecoesdeboca/static/media/logoPeña.1d775cf0e4c395f8d337.jpeg",
+    "static/media/obra38.jpg": "/arroyosecoesdeboca/static/media/obra38.2a1e75c1c5c42826d74d.jpg",
+    "static/media/obra5.jpeg": "/arroyosecoesdeboca/static/media/obra5.61e46dba8a650c47deab.jpeg",
+    "static/media/obra39.jpg": "/arroyosecoesdeboca/static/media/obra39.2b66a892320bd483f8e6.jpg",
+    "static/media/obra9.jpeg": "/arroyosecoesdeboca/static/media/obra9.05486b74f9a8204ac026.jpeg",
+    "static/media/obra32.jpg": "/arroyosecoesdeboca/static/media/obra32.4c15969afb4ccd61e172.jpg",
+    "static/media/obra18.jpg": "/arroyosecoesdeboca/static/media/obra18.4221c6818777f3c7ab8c.jpg",
+    "static/media/obra16.jpg": "/arroyosecoesdeboca/static/media/obra16.7714197cd2902787a007.jpg",
+    "static/media/obra24.jpg": "/arroyosecoesdeboca/static/media/obra24.e9662ddd6078d2f514b2.jpg",
+    "static/media/obra26.jpg": "/arroyosecoesdeboca/static/media/obra26.c939b77fe0324cf4044a.jpg",
+    "static/media/obra13.jpg": "/arroyosecoesdeboca/static/media/obra13.677853db6beb101c02ef.jpg",
+    "static/media/obra2.jpeg": "/arroyosecoesdeboca/static/media/obra2.ad4b62379f46cba2f3e8.jpeg",
+    "static/media/obra17.jpg": "/arroyosecoesdeboca/static/media/obra17.0ad7f9fce302fc3582f3.jpg",
+    "static/media/obra31.jpg": "/arroyosecoesdeboca/static/media/obra31.22ab8fc07a98bfd05d49.jpg",
+    "static/media/obra30.jpg": "/arroyosecoesdeboca/static/media/obra30.d6e9c8ef82e949f9baad.jpg",
+    "static/media/obra10.jpeg": "/arroyosecoesdeboca/static/media/obra10.e327d9c540c75f1f68ad.jpeg",
+    "static/media/obra27.jpg": "/arroyosecoesdeboca/static/media/obra27.1499dcb37cf57022f975.jpg",
+    "static/media/obra29.jpg": "/arroyosecoesdeboca/static/media/obra29.7d0f713a9dce33bcc3e1.jpg",
+    "static/media/obra19.jpg": "/arroyosecoesdeboca/static/media/obra19.c0c285beae799252dd76.jpg",
+    "static/media/obra14.jpg": "/arroyosecoesdeboca/static/media/obra14.b454d3f877462c02bfe2.jpg",
+    "static/media/obra3.jpeg": "/arroyosecoesdeboca/static/media/obra3.4fb70b21796d38f17909.jpeg",
+    "static/media/obra35.jpg": "/arroyosecoesdeboca/static/media/obra35.fb70405d3405adf3d044.jpg",
+    "static/media/obra36.jpg": "/arroyosecoesdeboca/static/media/obra36.f5f26e4150c9246ebbc8.jpg",
+    "static/media/peña.jpeg": "/arroyosecoesdeboca/static/media/peña.cc746dc45535c3250e68.jpeg",
+    "static/media/obra34.jpg": "/arroyosecoesdeboca/static/media/obra34.75a238ef241968108f6b.jpg",
+    "static/media/obra33.jpg": "/arroyosecoesdeboca/static/media/obra33.0c751c25b63d141d4c0e.jpg",
+    "static/media/obra21.jpg": "/arroyosecoesdeboca/static/media/obra21.b64563965c0109eac608.jpg",
+    "static/media/obra8.jpeg": "/arroyosecoesdeboca/static/media/obra8.8d017ac2ab9ee18f521e.jpeg",
+    "index.html": "/arroyosecoesdeboca/index.html",
+    "main.1d5b041f.css.map": "/arroyosecoesdeboca/static/css/main.1d5b041f.css.map",
+    "main.d7d193f5.js.map": "/arroyosecoesdeboca/static/js/main.d7d193f5.js.map",
+    "787.8800a120.chunk.js.map": "/arroyosecoesdeboca/static/js/787.8800a120.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d5b041f.css",
+    "static/js/main.d7d193f5.js"
+  ]
+}

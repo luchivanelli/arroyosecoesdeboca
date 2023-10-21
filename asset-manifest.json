@@ -1,8 +1,12 @@
 {
   "files": {
-    "main.css": "/arroyosecoesdeboca/static/css/main.1d5b041f.css",
-    "main.js": "/arroyosecoesdeboca/static/js/main.d7d193f5.js",
+    "main.css": "/arroyosecoesdeboca/static/css/main.1aac1965.css",
+    "main.js": "/arroyosecoesdeboca/static/js/main.b8d32f56.js",
     "static/js/787.8800a120.chunk.js": "/arroyosecoesdeboca/static/js/787.8800a120.chunk.js",
+    "static/media/viaje10.png": "/arroyosecoesdeboca/static/media/viaje10.8ca806f65652ba7c0f10.png",
+    "static/media/viaje9.png": "/arroyosecoesdeboca/static/media/viaje9.708aa72b3e8d5dfdf4ba.png",
+    "static/media/viaje8.png": "/arroyosecoesdeboca/static/media/viaje8.2a735ff7edd1712dd28e.png",
+    "static/media/viaje11.png": "/arroyosecoesdeboca/static/media/viaje11.987ccd8855f90fe2b63e.png",
     "static/media/logoPeña.jpeg": "/arroyosecoesdeboca/static/media/logoPeña.1d775cf0e4c395f8d337.jpeg",
     "static/media/obra38.jpg": "/arroyosecoesdeboca/static/media/obra38.2a1e75c1c5c42826d74d.jpg",
     "static/media/obra5.jpeg": "/arroyosecoesdeboca/static/media/obra5.61e46dba8a650c47deab.jpeg",
@@ -21,8 +25,15 @@
     "static/media/obra10.jpeg": "/arroyosecoesdeboca/static/media/obra10.e327d9c540c75f1f68ad.jpeg",
     "static/media/obra27.jpg": "/arroyosecoesdeboca/static/media/obra27.1499dcb37cf57022f975.jpg",
     "static/media/obra29.jpg": "/arroyosecoesdeboca/static/media/obra29.7d0f713a9dce33bcc3e1.jpg",
+    "static/media/viaje6.jpeg": "/arroyosecoesdeboca/static/media/viaje6.eb47a7df1d9747f95a05.jpeg",
+    "static/media/viaje2.jpeg": "/arroyosecoesdeboca/static/media/viaje2.5263910adf882d32791c.jpeg",
+    "static/media/viaje5.jpeg": "/arroyosecoesdeboca/static/media/viaje5.7bc39e480fa1809bf1a6.jpeg",
     "static/media/obra19.jpg": "/arroyosecoesdeboca/static/media/obra19.c0c285beae799252dd76.jpg",
+    "static/media/viaje3.jpeg": "/arroyosecoesdeboca/static/media/viaje3.6715797ce1375cff72f2.jpeg",
     "static/media/obra14.jpg": "/arroyosecoesdeboca/static/media/obra14.b454d3f877462c02bfe2.jpg",
+    "static/media/viaje4.jpeg": "/arroyosecoesdeboca/static/media/viaje4.0d3c6b6d6720b7441d56.jpeg",
+    "static/media/viaje1.jpeg": "/arroyosecoesdeboca/static/media/viaje1.4631459f630726fa9ec1.jpeg",
+    "static/media/viaje7.jpeg": "/arroyosecoesdeboca/static/media/viaje7.830ca99bf43f425f1867.jpeg",
     "static/media/obra3.jpeg": "/arroyosecoesdeboca/static/media/obra3.4fb70b21796d38f17909.jpeg",
     "static/media/obra35.jpg": "/arroyosecoesdeboca/static/media/obra35.fb70405d3405adf3d044.jpg",
     "static/media/obra36.jpg": "/arroyosecoesdeboca/static/media/obra36.f5f26e4150c9246ebbc8.jpg",
@@ -32,12 +43,12 @@
     "static/media/obra21.jpg": "/arroyosecoesdeboca/static/media/obra21.b64563965c0109eac608.jpg",
     "static/media/obra8.jpeg": "/arroyosecoesdeboca/static/media/obra8.8d017ac2ab9ee18f521e.jpeg",
     "index.html": "/arroyosecoesdeboca/index.html",
-    "main.1d5b041f.css.map": "/arroyosecoesdeboca/static/css/main.1d5b041f.css.map",
-    "main.d7d193f5.js.map": "/arroyosecoesdeboca/static/js/main.d7d193f5.js.map",
+    "main.1aac1965.css.map": "/arroyosecoesdeboca/static/css/main.1aac1965.css.map",
+    "main.b8d32f56.js.map": "/arroyosecoesdeboca/static/js/main.b8d32f56.js.map",
     "787.8800a120.chunk.js.map": "/arroyosecoesdeboca/static/js/787.8800a120.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d5b041f.css",
-    "static/js/main.d7d193f5.js"
+    "static/css/main.1aac1965.css",
+    "static/js/main.b8d32f56.js"
   ]
 }

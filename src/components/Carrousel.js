@@ -11,7 +11,6 @@ const Carrousel = ({images, title}) => {
       slidesPerView={1}
       >
         {images.map(image=> {
-
           return(
             <SwiperSlide className='carrousel-img'><img src={image}/></SwiperSlide>
           )})

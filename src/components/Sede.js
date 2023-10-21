@@ -52,9 +52,9 @@ const Sede = () => {
             <Carrousel images={inicios} title='Inicios'/>
             <Carrousel images={avances} title='Avances'/>
             <Carrousel images={actual} title='Actualmente'/>
-            <div>
-                <h4 className='sede-carrousel-title'>Proyecto terminado</h4>
-                <img src={peñaTerminada} className='proyecto-terminado'/>
+            <div className='proyecto-terminado'>
+                <h4>Proyecto terminado</h4>
+                <img src={peñaTerminada}/>
             </div>
         </div>
     </div>

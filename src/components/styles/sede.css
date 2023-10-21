@@ -1,3 +1,7 @@
+.sede {
+    padding: 10px 0 20px;
+}
+
 .sede-title {
     color: #fff;
     margin: 30px 0 0;
@@ -29,14 +33,34 @@
 }
 
 .proyecto-terminado {
-    max-height: 375px;
-    margin: 20px 0;
+    min-width: 200px;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 20px 0 40px;
+}
+
+.proyecto-terminado h4 {
+    text-align: center;
+    margin: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--yellow);
+}
+
+.proyecto-terminado img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    padding: 0 20px;
 }
 
 @media screen and (min-width: 768px) {
-    .sede-carrouseles {
-        
+    .proyecto-terminado {
+        max-height: 300px;
     }
 
-    
+    .proyecto-terminado img {
+        max-height: 300px;
+        width: 400px;
+    }
 }

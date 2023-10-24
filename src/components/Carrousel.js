@@ -12,7 +12,7 @@ const Carrousel = ({images, title}) => {
       >
         {images.map(image=> {
           return(
-            <SwiperSlide className='carrousel-img'><img src={image}/></SwiperSlide>
+            <SwiperSlide key={image} className='carrousel-img'><img src={image}/></SwiperSlide>
           )})
         }
     </Swiper>

@@ -30,6 +30,8 @@
 .sede-carrouseles {
     gap: 0 40px;
     flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .proyecto-terminado {

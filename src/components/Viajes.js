@@ -1,5 +1,6 @@
 import React from 'react'
 import './styles/viajes.css'
+import { useRef } from 'react'
 import Carrousel from './Carrousel'
 import img1 from '../images/viaje1.jpeg'
 import img2 from '../images/viaje2.jpeg'
@@ -17,6 +18,13 @@ import img11 from '../images/viaje11.png'
 const images1 = [img1, img2, img3, img4, img5, img6, img7]
 
 const Viajes = () => {
+  const refImage = useRef()
+
+  const toggleModal = (img)=> {
+    refImage.current.children[0].src = img
+    refImage.current.classList.toggle('hidden')
+  }
+
   return (
     <div className='viajes'>
       <h3 className='viajes-title'>Viajá con la peña</h3>
@@ -30,11 +38,20 @@ const Viajes = () => {
       <div className='viajes-section'>
         <h4>"YO TE SIGO A TODAS PARTES A DÓNDE VAS, CADA VEZ TE QUIERO MÁS 🎶"</h4>
         <div className='viajes-section-images d-flex'>
-            <img src={img8}/>
-            <img src={img9}/>
-            <img src={img10}/>
-            <img src={img11}/>
+            <img src={img8} onClick={()=> toggleModal(img8)}/>
+            <img src={img9} onClick={()=> toggleModal(img9)}/>
+            <img src={img10} onClick={()=> toggleModal(img10)}/>
+            <img src={img11} onClick={()=> toggleModal(img11)}/>
         </div>
+        <p>* Presionar sobre la imagen para ampliarla</p>
+      </div>
+
+      <div 
+        className='viajes-modal hidden d-flex justify-content-center align-items-center' 
+        ref={refImage}
+        onClick={toggleModal}
+      >
+        <img/>
       </div>
     </div>
   )

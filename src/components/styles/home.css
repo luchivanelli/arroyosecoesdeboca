@@ -2,6 +2,7 @@
     height: calc(100vh - 86px);
     padding: 20px;
     text-align: center;
+    flex-direction: column-reverse;
 }
 
 .home h3 {
@@ -15,9 +16,23 @@
     color: var(--yellow);
 }
 
+.home img {
+    width: 200px;
+    margin-bottom: -40px;
+}
+
 @media screen and (min-width: 992px) {
+    .home {
+        flex-direction: row;
+    }
+
     .home h1 {
         font-size: 47px;
+    }
+
+    .home img {
+        width: 250px;
+        margin: 0;
     }
 }
 

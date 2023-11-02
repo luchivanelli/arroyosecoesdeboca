@@ -1,0 +1,44 @@
+.acordion {
+    padding: 20px 0;
+    max-width: 500px;
+    margin: 0 auto;
+    --bs-accordion-btn-focus-box-shadow: 0;
+}
+
+.acordion-item {
+    border-radius: 0 !important;
+    border: 1.5px solid var(--yellow);
+}
+
+.acordion-title button{
+    border-radius: 0 !important;
+    color: var(--blue);
+    background-color: #0b0d3dda;
+    color: var(--yellow);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #fff;
+}
+
+.acordion-info {
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .acordion {
+        max-width: 600px;   
+        padding: 40px 0;   
+    }
+
+    .acordion-title button{
+        font-size: 18px;
+    }
+
+    .acordion-info {
+        font-size: 15px;
+    }
+}

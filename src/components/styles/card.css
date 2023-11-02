@@ -1,0 +1,45 @@
+.card {
+    max-width: 200px;
+    height: 280px;
+    border: 1.2px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 4px #ffffffa4;
+}
+
+.card-fondo {
+    background-color: var(--blue);
+    border-radius: 5px 5px 0 0;
+}
+.card-content {
+    background-color: var(--blue);
+    border-radius: 0 0 5px 5px;
+}
+.card-title {
+    text-align: center;
+    color: var(--yellow);
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.card-info {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        max-width: 210px;
+        height: 310px;
+    }
+
+    .card-info {
+        font-size: 16px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+}

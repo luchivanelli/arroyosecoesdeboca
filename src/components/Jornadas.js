@@ -9,6 +9,8 @@ import jor5 from '../images/solidaria5.jpeg'
 import jor6 from '../images/solidaria3.jpeg'
 import Acordion from './Acordion'
 import { useRef } from 'react'
+import Modal from './Modal'
+import ToggleModal from './ToggleModal'
 
 const cards = [
   {title: 'Alimentos', info: 'Donaciones de alimentos no perecederos, verduras, carnes, etc.'},
@@ -19,34 +21,28 @@ const cards = [
 const jorImages = [jor1, jor2, jor3, jor4, jor6, jor5]
 
 const Jornadas = () => {
-  const refImage = useRef()
-
-  const toggleModal = (img)=> {
-    refImage.current.children[0].src = img
-    refImage.current.classList.toggle('hidden')
-  }
+  const refModal = useRef()
 
   return (
     <div className='jornadas'>
       <h3 className='jornadas-title'>Jornadas Solidarias</h3>
       <p className='jornadas-description'>La institución realiza <b>acciones y jornadas solidarias</b> para ayudar a los que más lo necesitan. Estamos comprometidos en colaborar con la sociedad más allá de los colores.</p>
-      <div className='cards d-flex justify-content-center align-items-center'>
+      {/* <div className='cards d-flex justify-content-center align-items-center'>
         {cards.map(card => {
           return (<CardComponent title={card.title} info={card.info} key={card.title} />)
         })}
-      </div>
+      </div> */}
       <div className='jornadas-acordion'>
+        <h4 className='jornadas-acordion-title'>Algunas de nuestras donaciones:</h4>
         <Acordion />
       </div>
       <div className='jornadas-images d-flex justify-content-center align-items-center'>
         {jorImages.map(image => {
-          return (<img src={image} onClick={()=> toggleModal(image)}/>)
+          return (<img src={image} onClick={()=> ToggleModal(refModal, image, null)}/>)
         })}
       </div>
 
-      <div ref={refImage} className='jornadas-modal hidden d-flex justify-content-center align-items-center' onClick={toggleModal}>
-        <img />
-      </div>
+      <Modal refModal={refModal}/>
     </div>
   )
 }

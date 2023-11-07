@@ -27,6 +27,28 @@
     font-size: 14px;
 }
 
+.sede-buttons-container {
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+
+.sede-button {
+    width: 120px;
+    border: 2px solid var(--yellow);
+    background-color: var(--blue);
+    color: #fff;
+    padding: 5px 0;
+    border-radius: 15px;
+}
+
+.sede-button:hover {
+    background-color: var(--yellow);
+    color: var(--blue);
+    font-weight: 600;
+}
+
 .sede-carrouseles {
     gap: 0 40px;
     flex-wrap: wrap;
@@ -65,5 +87,10 @@
         margin: 0 auto;
         height: 300px;
         max-width: 320px;
+    }
+
+    .sede-buttons-container {
+        justify-content: center;
+        gap: 40px;
     }
 }

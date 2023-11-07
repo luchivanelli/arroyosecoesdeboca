@@ -1,0 +1,66 @@
+.modal, .modal-2 {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #000000b9;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.modal-2 .carrousel-container {
+    max-width: 350px;
+    padding: 10px;
+    box-shadow: 0px 0px 20px #000;
+    background-color: #fff;
+    max-width: 330px;
+}
+
+.modal-2 .sede-carrousel-title {
+    background-color: #fff;
+    margin: 0;
+    padding: 10px;
+    border-bottom: none;
+    color: #000;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.modal img{
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+    box-shadow: 0px 0px 20px #000;
+    background-color: #fff;
+}
+
+.modal h3 {
+    background-color: #fff;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #000;
+    border-bottom: none;
+}
+
+.hidden {
+    display: none !important;
+}
+
+@media screen and (min-width: 576px) {
+    .modal img{
+        max-width: 550px;
+        max-height: 400px;
+        object-fit: contain;
+    }
+
+    .modal-2 .carrousel-container {
+        max-width: 500px;
+    }
+
+    .modal-2 .carrousel-img img{
+        max-width: 400px;
+        max-height: 400px;
+    }
+}

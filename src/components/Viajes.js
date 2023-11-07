@@ -14,18 +14,14 @@ import img8 from '../images/viaje8.png'
 import img9 from '../images/viaje9.png'
 import img10 from '../images/viaje10.png'
 import img11 from '../images/viaje11.png'
+import Modal from './Modal'
+import ToggleModal from './ToggleModal'
 
 const images1 = [img1, img2, img3, img4, img5, img6, img7]
 
 const Viajes = () => {
-  const refImage = useRef()
-
-  const toggleModal = (img, title)=> {
-    refImage.current.children[1].src = img
-    refImage.current.children[0].innerHTML = title
-    refImage.current.classList.toggle('hidden')
-  }
-
+  const refModal = useRef()
+  
   return (
     <div className='viajes'>
       <h3 className='viajes-title'>Viajá con la peña</h3>
@@ -43,22 +39,15 @@ const Viajes = () => {
       <div className='viajes-section'>
         <h4>"YO TE SIGO A TODAS PARTES A DÓNDE VAS, CADA VEZ TE QUIERO MÁS 🎶"</h4>
         <div className='viajes-section-images d-flex'>
-            <img src={img8} onClick={()=> toggleModal(img8, 'São Paulo, Brasil')}/>
-            <img src={img9} onClick={()=> toggleModal(img9, 'Montevideo, Uruguay')}/>
-            <img src={img10} onClick={()=> toggleModal(img10, 'San Juan, Argentina')}/>
-            <img src={img11} onClick={()=> toggleModal(img11, 'Mendoza, Argentina')}/>
+            <img src={img8} onClick={()=> ToggleModal(refModal, img8, 'São Paulo, Brasil')}/>
+            <img src={img9} onClick={()=> ToggleModal(refModal, img9, 'Montevideo, Uruguay')}/>
+            <img src={img10} onClick={()=> ToggleModal(refModal, img10, 'San Juan, Argentina')}/>
+            <img src={img11} onClick={()=> ToggleModal(refModal, img11, 'Mendoza, Argentina')}/>
         </div>
         <p>* Presionar sobre la imagen para ampliarla</p>
       </div>
 
-      <div 
-        className='viajes-modal hidden d-flex justify-content-center align-items-center' 
-        ref={refImage}
-        onClick={toggleModal}
-      >
-        <h3></h3>
-        <img/>
-      </div>
+      <Modal refModal={refModal} />
     </div>
   )
 }

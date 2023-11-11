@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/arroyosecoesdeboca/static/css/main.151cf0d3.css",
-    "main.js": "/arroyosecoesdeboca/static/js/main.f4186504.js",
+    "main.css": "/arroyosecoesdeboca/static/css/main.9b3c2c62.css",
+    "main.js": "/arroyosecoesdeboca/static/js/main.75796cf6.js",
     "static/js/787.8800a120.chunk.js": "/arroyosecoesdeboca/static/js/787.8800a120.chunk.js",
     "static/media/viaje8.png": "/arroyosecoesdeboca/static/media/viaje8.93d953d28fc5fdaa551b.png",
     "static/media/viaje11.png": "/arroyosecoesdeboca/static/media/viaje11.216ca5f212c987585cf2.png",
@@ -51,12 +51,12 @@
     "static/media/solidaria6.jpeg": "/arroyosecoesdeboca/static/media/solidaria6.bab6dcc67664208bb25b.jpeg",
     "static/media/fondoCard.svg": "/arroyosecoesdeboca/static/media/fondoCard.28e37a9cf6716fd76e83860a83acf380.svg",
     "index.html": "/arroyosecoesdeboca/index.html",
-    "main.151cf0d3.css.map": "/arroyosecoesdeboca/static/css/main.151cf0d3.css.map",
-    "main.f4186504.js.map": "/arroyosecoesdeboca/static/js/main.f4186504.js.map",
+    "main.9b3c2c62.css.map": "/arroyosecoesdeboca/static/css/main.9b3c2c62.css.map",
+    "main.75796cf6.js.map": "/arroyosecoesdeboca/static/js/main.75796cf6.js.map",
     "787.8800a120.chunk.js.map": "/arroyosecoesdeboca/static/js/787.8800a120.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.151cf0d3.css",
-    "static/js/main.f4186504.js"
+    "static/css/main.9b3c2c62.css",
+    "static/js/main.75796cf6.js"
   ]
 }

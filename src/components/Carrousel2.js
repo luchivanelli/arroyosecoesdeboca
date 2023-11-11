@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-
+import './styles/carrousel.css'
 
 const Carrousel2 = ({images, title}) => { 
 
@@ -17,6 +17,7 @@ const Carrousel2 = ({images, title}) => {
           )})
         }
     </Swiper>
+    <span>Deslizar para ver más imágenes</span>
     </div>
   );
 }

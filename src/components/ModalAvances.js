@@ -18,7 +18,7 @@ const avances = [img10, img11, img12, img13, img14 ,img15, img16, img17, img18]
 const ModalAvances = ({modalAvances}) => {
   return (
     <div ref={modalAvances} className='modal-2 hidden d-flex justify-content-center align-items-center' onClick={()=> ToggleModal2(modalAvances)}>
-      <Carrousel2 images={avances} title={'Avances'} refModal2={modalAvances}/>
+      <Carrousel2 images={avances} title={'Avances'}/>
     </div>
   )
 }

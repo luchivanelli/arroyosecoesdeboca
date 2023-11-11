@@ -16,7 +16,7 @@ const Sede = () => {
   const modalActual = useRef()
 
   return (
-    <div className='sede'>
+    <div className='sede' id='sede'>
         <h3 className='sede-title'>Proyecto sede</h3>
         <p className='sede-description'>La sede del CABJ es un proyecto que comenzó hace años y que fue creciendo día a día con <b>esfuezo, dedicación y sacrificio.</b> El objetivo es que los xeneizes de la zona puedan disfrutar de un lugar propio. Se deja el alma y el corazón para avanzar y cumplir el sueño de todos.
         Se planeó, se empezó, se está ejecutando y se logrará, a todo pulmón y <b>POR AMOR A BOCA</b>

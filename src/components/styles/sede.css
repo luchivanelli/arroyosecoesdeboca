@@ -7,6 +7,8 @@
     margin: 30px 0 0;
     text-align: center;
     font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
 }
 
 .sede-description {
@@ -35,18 +37,20 @@
 }
 
 .sede-button {
-    width: 120px;
+    width: 140px;
     border: 2px solid var(--yellow);
     background-color: var(--blue);
     color: #fff;
     padding: 5px 0;
     border-radius: 15px;
+    transition: all 0.4s;
 }
 
 .sede-button:hover {
     background-color: var(--yellow);
     color: var(--blue);
     font-weight: 600;
+    transition: all 0.2s;
 }
 
 .sede-carrouseles {

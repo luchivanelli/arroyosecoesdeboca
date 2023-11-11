@@ -5,7 +5,7 @@ import { IconMapPin, IconBrandInstagram, IconBrandFacebook, IconPhone } from '@t
 
 const LaPeña = () => {
   return (
-    <div className='la-peña d-flex justify-content-center align-items-center flex-column'>
+    <div id='peña' className='la-peña d-flex justify-content-center align-items-center flex-column'>
       <div className='la-peña-content d-flex justify-content-center align-items-center'>
         <div>
           <h3>¿Quiénes somos?</h3>

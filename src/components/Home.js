@@ -4,7 +4,7 @@ import escudo from '../images/escudoBoca.png'
 
 const Home = () => {
   return (
-    <div className='home d-flex justify-content-center align-items-center'>
+    <div id='home' className='home d-flex justify-content-center align-items-center'>
       <img src={escudo}/>
       <div>
         <h3>Bienvenidos a la página oficial de</h3>

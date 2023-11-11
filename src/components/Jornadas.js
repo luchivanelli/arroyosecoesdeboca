@@ -24,7 +24,7 @@ const Jornadas = () => {
   const refModal = useRef()
 
   return (
-    <div className='jornadas'>
+    <div className='jornadas' id='jornadas'>
       <h3 className='jornadas-title'>Jornadas Solidarias</h3>
       <p className='jornadas-description'>La institución realiza <b>acciones y jornadas solidarias</b> para ayudar a los que más lo necesitan. Estamos comprometidos en colaborar con la sociedad más allá de los colores.</p>
       {/* <div className='cards d-flex justify-content-center align-items-center'>

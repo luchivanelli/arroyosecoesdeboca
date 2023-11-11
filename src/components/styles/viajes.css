@@ -6,7 +6,8 @@
 .viajes-title {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    letter-spacing: 1px;
+    font-weight: 700;
     color: var(--blue);
     margin: 0;
 }
@@ -20,16 +21,23 @@
     text-align: center;
 }
 
+.viajes-description b {
+    color: var(--yellow);
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    -webkit-text-stroke: 0.5px var(--blue);
+}
+
 .viajes-button {
     margin: 0 auto 30px;
     text-align: center;
     display: block;
     width: fit-content;
-    border: 3px solid var(--blue2);
+    border: 3px solid var(--blue);
     border-radius: 20px;
     padding: 5px 10px;
     background-color: #fff;
-    color: var(--blue2);
+    color: var(--blue);
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     text-decoration: none;
@@ -37,7 +45,7 @@
 }
 
 .viajes-button:hover {
-    background-color: var(--blue2);
+    background-color: var(--blue);
     color: var(--yellow);
     transition: all 0.2s;
 }
@@ -45,9 +53,11 @@
 .viajes-info {
     padding: 0 25px 5px;
     font-size: 12px;
-    margin: -10px auto 20px;
+    margin: 0 auto 15px;
     text-align: justify;
     max-width: 400px;
+    color: var(--blue);
+    font-weight: 500;
 }
 
 .viajes-section {
@@ -85,6 +95,10 @@
     max-width: 150px;
     object-fit: cover;
     cursor: pointer;
+}
+
+.viajes-section p {
+    color: var(--blue2);
 }
 
 .hidden {

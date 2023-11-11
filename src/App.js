@@ -5,6 +5,15 @@ import LaPeña from './components/LaPeña'
 import Sede from './components/Sede'
 import Viajes from './components/Viajes'
 import Jornadas from './components/Jornadas'
+import Socio from './components/Socio'
+import Footer from './components/Footer'
+import { IconArrowBigUp } from '@tabler/icons-react';
+
+const Button = ()=> {
+  return (
+    <a href='#header' className='button'><IconArrowBigUp/></a>
+  )
+}
 
 const App = () => {
   return (
@@ -15,6 +24,9 @@ const App = () => {
       <Sede />
       <Viajes />
       <Jornadas />
+      <Socio />
+      <Footer />
+      <Button />
     </div>
   )
 }

@@ -17,7 +17,7 @@ const actual = [img19, img20, img21, img22, img23 ,img24, img25, img26]
 const ModalActual = ({modalActual}) => {
   return (
     <div ref={modalActual} className='modal-2 hidden d-flex justify-content-center align-items-center' onClick={()=> ToggleModal2(modalActual)}>
-      <Carrousel2 images={actual} title={'Actual'} refModal2={modalActual}/>
+      <Carrousel2 images={actual} title={'Actual'}/>
     </div>
   )
 }

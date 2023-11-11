@@ -107,7 +107,6 @@ select {
     font-weight: 500;
     background-color: var(--blue);
     color: #fff;
-    max-width: 300px;
 }
 
 .socio-peña-formulario button {

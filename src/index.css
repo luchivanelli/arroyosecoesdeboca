@@ -34,3 +34,10 @@ body {
   border-radius: 50%;
   cursor: pointer;
 }
+
+@media screen and (min-width: 768px) {
+  .button svg {
+    width: 45px;
+    height: 45px;
+  }
+}

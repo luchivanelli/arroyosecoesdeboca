@@ -16,6 +16,8 @@
     color: #fff;
     max-width: 800px;
     margin: 0 auto;
+    line-height: 25px;
+    font-weight: 400;
 }
 
 .sede-description b {
@@ -96,5 +98,9 @@
     .sede-buttons-container {
         justify-content: center;
         gap: 40px;
+    }
+
+    .sede-description {
+        font-size: 17px;
     }
 }

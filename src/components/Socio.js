@@ -63,7 +63,7 @@ const Socio = () => {
               <label>Medio de pago:</label>
               <select type='select' {...formik.getFieldProps('pago')}>
                 <option>Efectivo</option>
-                <option>Transferecia bancaria</option>
+                <option>Transferencia bancaria</option>
                 <option>Débito automático</option>
               </select>
             </div>

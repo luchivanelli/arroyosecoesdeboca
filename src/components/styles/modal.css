@@ -8,6 +8,7 @@
     background-color: #000000b9;
     z-index: 10;
     cursor: pointer;
+    box-shadow: inset 0px 0px 20px #000;
 }
 
 .modal-2 .carrousel-container {
@@ -36,16 +37,16 @@
 .modal img{
     width: 100%;
     max-width: 350px;
-    padding: 10px;
-    box-shadow: 0px 0px 20px #000;
-    background-color: #fff;
 }
 
 .modal h3 {
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
     background-color: #fff;
+    color: var(--blue2);
     margin: 0;
     padding: 10px;
-    border: 1px solid #000;
     border-bottom: none;
 }
 
@@ -58,6 +59,10 @@
         max-width: 550px;
         max-height: 400px;
         object-fit: contain;
+    }
+
+    .modal h3 {
+        max-width: 400px;
     }
 
     .modal-2 .carrousel-container {

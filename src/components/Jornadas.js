@@ -27,11 +27,6 @@ const Jornadas = () => {
     <div className='jornadas' id='jornadas'>
       <h3 className='jornadas-title'>Jornadas Solidarias</h3>
       <p className='jornadas-description'>La institución realiza <b>acciones y jornadas solidarias</b> para ayudar a los que más lo necesitan. Estamos comprometidos en colaborar con la sociedad más allá de los colores.</p>
-      {/* <div className='cards d-flex justify-content-center align-items-center'>
-        {cards.map(card => {
-          return (<CardComponent title={card.title} info={card.info} key={card.title} />)
-        })}
-      </div> */}
       <div className='jornadas-acordion'>
         <h4 className='jornadas-acordion-title'>Algunas de nuestras donaciones:</h4>
         <Acordion />
@@ -41,6 +36,7 @@ const Jornadas = () => {
           return (<img src={image} onClick={()=> ToggleModal(refModal, image, null)}/>)
         })}
       </div>
+      <p className='jornadas-ampliar'>* Presionar sobre la imagen para ampliarla</p>
 
       <Modal refModal={refModal}/>
     </div>

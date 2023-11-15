@@ -14,10 +14,17 @@ import img8 from '../images/viaje8.png'
 import img9 from '../images/viaje9.png'
 import img10 from '../images/viaje10.png'
 import img11 from '../images/viaje11.png'
+import img12 from '../images/viaje12.png'
+import img13 from '../images/viaje13.png'
 import Modal from './Modal'
 import ToggleModal from './ToggleModal'
 
+import logo1 from '../images/lpf.png'
+import logo2 from '../images/libertadores.png'
+import logo3 from '../images/copaArg.png'
+
 const images1 = [img1, img2, img3, img4, img5, img6, img7]
+const images2 = [logo1, logo2, logo3]
 
 const Viajes = () => {
   const refModal = useRef()
@@ -37,8 +44,19 @@ const Viajes = () => {
       </div>
 
       <div className='viajes-section'>
-        <h4>"YO TE SIGO A TODAS PARTES<br/> A DÓNDE VAS,<br/> CADA VEZ TE QUIERO MÁS"🎶</h4>
+        <div className='viajes-logos-content d-flex justify-content-center align-items-center'>
+          <h4>"YO TE SIGO A TODAS PARTES<br/> A DÓNDE VAS,<br/> CADA VEZ TE QUIERO MÁS"🎶</h4>
+          <div className='viajes-logos d-flex justify-content-center align-items-center'>
+          {images2.map(image => {
+              return (
+                <img src={image}/>
+              )
+          })}
+          </div>
+        </div>
         <div className='viajes-section-images d-flex'>
+            <img src={img12} onClick={()=> ToggleModal(refModal, img12, 'Río de Janeiro, Brasil')}/>
+            <img src={img13} onClick={()=> ToggleModal(refModal, img13, 'Río de Janeiro, Brasil')}/>
             <img src={img8} onClick={()=> ToggleModal(refModal, img8, 'São Paulo, Brasil')}/>
             <img src={img9} onClick={()=> ToggleModal(refModal, img9, 'Montevideo, Uruguay')}/>
             <img src={img10} onClick={()=> ToggleModal(refModal, img10, 'San Juan, Argentina')}/>

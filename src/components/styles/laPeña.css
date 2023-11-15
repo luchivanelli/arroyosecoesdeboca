@@ -23,6 +23,11 @@
     color: var(--blue2);
 }
 
+.la-peña-content p {
+    line-height: 25px;
+    font-weight: 400;
+}
+
 .la-peña-content-logo {
     max-width: 150px;
     max-height: 150px;
@@ -42,6 +47,7 @@
 
 .la-peña-contacto svg {
     color: var(--blue2);
+    margin-top: -5px;
 }
 
 .la-peña-contacto p {
@@ -54,6 +60,10 @@
     text-decoration: none;
     color: var(--blue2);
     font-weight: 600;
+}
+
+.la-peña-contacto p a:hover {
+    text-decoration: underline;
 }
 
 .la-peña-contacto-redes a {
@@ -69,6 +79,7 @@
 
 .la-peña-contacto-redes a svg {
     color: var(--blue2);
+    margin-top: 0px;
 }
 
 .la-peña-contacto-redes a:hover{

@@ -9,6 +9,7 @@
     font-weight: 700;
     text-align: center;
     color: var(--blue);
+    padding-bottom: 10px;
 }
 
 .socio-adherente, .socio-peña {
@@ -28,7 +29,8 @@
 
 .socio-adherente p, .socio-peña p {
     color: var(--blue);
-    font-weight: 500;
+    font-weight: 400;
+    line-height: 25px;
     margin-bottom: 10px;
 }
 
@@ -145,7 +147,9 @@ select {
 @media screen and (min-width: 768px) {
     .socio-adherente p, .socio-peña p {
         padding: 0 10px;
+        font-size: 17px;
     }
+
     .socio-adherente h4, .socio-peña h4 {
         padding-right: 20px;
         font-size: 22px;

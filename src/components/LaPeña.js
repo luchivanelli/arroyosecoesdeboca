@@ -16,7 +16,7 @@ const LaPeña = () => {
         </div>
       </div>
       <div className='la-peña-contacto d-flex flex-column justify-content-center align-items-center'>
-          <p><IconMapPin/> Dirección: <a href='https://www.google.com.ar/maps/place/Gaboto+639,+Arroyo+Seco,+Santa+Fe/@-33.1578758,-60.5054798,17z/data=!3m1!4b1!4m5!3m4!1s0x95b70b9244f614f3:0x779bc14d58006962!8m2!3d-33.1578803!4d-60.5029049?entry=ttu' target='_blank'>Gaboto 639, Arroyo Seco, Santa Fe</a></p>
+          <p><IconMapPin/> Estamos ubicados en:<br/> <a href='https://www.google.com.ar/maps/place/Gaboto+639,+Arroyo+Seco,+Santa+Fe/@-33.1578758,-60.5054798,17z/data=!3m1!4b1!4m5!3m4!1s0x95b70b9244f614f3:0x779bc14d58006962!8m2!3d-33.1578803!4d-60.5029049?entry=ttu' target='_blank'>Gaboto 639, Arroyo Seco, Santa Fe</a></p>
           <div className='la-peña-contacto-redes d-flex justify-conten-center align-items-center'>
             <a className='d-flex justify-content-center align-items-center' href='https://www.instagram.com/arroyosecoesdeboca12/' target='_blank'><IconBrandInstagram/> Instagram</a>
             <a className='d-flex justify-content-center align-items-center' href='https://www.facebook.com/ARROYOSECOESDEBOCA' target='_blank'><IconBrandFacebook/> Facebook</a>

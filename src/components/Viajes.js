@@ -34,11 +34,12 @@ const Viajes = () => {
       <h3 className='viajes-title'>Viajá con la peña</h3>
       <p className='viajes-description'><b>¿Querés ir a la Bombonera?</b> La peña te lleva a ver los partidos del club más grande del continente. Viví una experiencia mágica, única e inolvidable</p>
       <div className='viajes-content'>
-        <div className='carrousel-viajes d-flex justify-content-center align-items-center'>
+        <div className='carrousel-viajes d-flex justify-content-center align-items-center flex-column'>
           <Carrousel images={images1} clase='carrousel-viajes'/>
+          <span className='viajes-span'>* Deslizar para ver más imágenes</span>
         </div>
         <div className='viajes-info-content'>
-          <p className='viajes-info'>* Las formas de pago de los viajes a la cancha son de 48hs antes de partir. De lo contrario, no se guardará el lugar</p>
+          <p className='viajes-info'>Las formas de pago de los viajes a la cancha son de 48hs antes de partir. De lo contrario, no se guardará el lugar</p>
           <a className='viajes-button' href='https://api.whatsapp.com/send?phone=543402658558&text=Hola,%20quiero%20saber%20más%20sobre%20los%20viajes%20a%20la%20cancha%20💙💛💙'>Contactate para más info</a>
         </div>
       </div>

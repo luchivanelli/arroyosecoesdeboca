@@ -6,7 +6,7 @@ const AcordionHistoria = ()=>  {
     <Accordion className='acordion-historia'>
         <h4 className='acordion-historia-title'>Historia de la peña</h4>
       <Accordion.Item eventKey="0" className='acordion-historia-item'>
-        <Accordion.Header>1985/1989</Accordion.Header>
+        <Accordion.Header>1985 / 1989</Accordion.Header>
         <Accordion.Body className='acordion-historia-info'>
             En 1985 en Arroyo Seco, el plantel del Club Atlético Boca Juniors visitó nuestro pueblo (ya hoy ciudad), para disputar un partido de fútbol organizado por algunos funcionarios políticos, con el fin de festejar la FIESTA DE LA PAPA. El partido Boca lo jugó vs ASAC, un equipo que juega en la Liga Regional del Sud en la zona y empataron 1 a 1, ganando Boca por penales. 
             <br/>Esa visita que fue furor, motivó a muchos bosteros de nuestro pueblo.
@@ -15,7 +15,7 @@ const AcordionHistoria = ()=>  {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="2" className='acordion-historia-item'>
-        <Accordion.Header>2000/2004</Accordion.Header>
+        <Accordion.Header>2000 / 2004</Accordion.Header>
         <Accordion.Body className='acordion-historia-info'>
             Desde la década del 90 hasta principios del 2000, fue donde se empezó a armar algo nuevamente, a través de la época dorada donde el equipo de Bianchi deslumbraba hasta siendo campeón del mundo. En 2004 se fue armando un nuevo grupo, en la misma época dorada en la que Boca Juniors seguía ganando todo... Se constituyó una nueva peña en el que se estuvo alquilando un local durante un par de años donde se realizo una cena con la visita de Rojitas, Graciani y banderita Laudoneo. También fue en esos años la famosa visita de la antorcha del centenario del CABJ que recorrió el pais.
             <br/>Muchas veces se armaban viajes a la Bombonera. Y todo nuevamente se fue disolviendo a fines del  2007 
@@ -68,7 +68,7 @@ const AcordionHistoria = ()=>  {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="9" className='acordion-historia-item'>
-        <Accordion.Header>2018/2019</Accordion.Header>
+        <Accordion.Header>2018 / 2019</Accordion.Header>
         <Accordion.Body className='acordion-historia-info'>
             En 2018, nos visitó otro campeón del mundo con Boca y campeón Sudaméricano como director técnico, el Chino Benitez con Daniel Campos, histórico periodista de Pintado de Azul y Oro. Presentamos el proyecto de la futura sede a construir. Es aquí donde nos propusimos llevar a cabo el gran lema "La Sede se construirá tal como la Bombonera, por el propio sudor y esfuerzo del hincha de Boca, sin ningúna ayuda del estado ni gobierno, partido politico y entidad sea cual fuese, todo POR AMOR A BOCA porque así es el hincha de Boca y Boca nunca teme luchar"
             <br/>En el 2019 llegaron a la ciudad el Chipi Barijo, Matias Arce y Suchar Ruiz donde tuvimos un asado intimo, fue una noche de muchas anécdotas, pasando un momento de charlas inolvidables.

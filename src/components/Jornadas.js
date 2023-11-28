@@ -7,6 +7,8 @@ import jor3 from '../images/solidaria7.jpeg'
 import jor4 from '../images/solidaria8.jpeg'
 import jor5 from '../images/solidaria5.jpeg'
 import jor6 from '../images/solidaria3.jpeg'
+import jor7 from '../images/solidaria11.jpg'
+import jor8 from '../images/solidaria1.jpeg'
 import Acordion from './Acordion'
 import { useRef } from 'react'
 import Modal from './Modal'
@@ -18,7 +20,7 @@ const cards = [
   {title: 'Varios', info: 'Tapitas plásticas, Útiles escolares, Vestimenta, Juguetes'},
 ]
 
-const jorImages = [jor1, jor2, jor3, jor4, jor6, jor5]
+const jorImages = [jor1, jor2, jor3, jor4, jor6, jor5, jor7, jor8]
 
 const Jornadas = () => {
   const refModal = useRef()

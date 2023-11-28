@@ -2,6 +2,7 @@ import React from 'react'
 import './styles/laPeña.css'
 import logo from '../images/logoPeña.jpeg'
 import { IconMapPin, IconBrandInstagram, IconBrandFacebook, IconPhone } from '@tabler/icons-react';
+import AcordionHistoria from './AcordionHistoria';
 
 const LaPeña = () => {
   return (
@@ -24,6 +25,7 @@ const LaPeña = () => {
           </div>
       </div>
       
+      <AcordionHistoria />
     </div>
   )
 }

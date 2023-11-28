@@ -1,11 +1,11 @@
 .acordion {
-    padding: 20px 0;
+    padding: 20px;
     max-width: 500px;
     margin: 0 auto;
     --bs-accordion-btn-focus-box-shadow: 0;
 }
 
-.acordion-item {
+.acordion-item{
     border-radius: 0 !important;
     border: 1.5px solid var(--yellow);
 }
@@ -26,6 +26,45 @@
 .acordion-info {
     font-size: 14px;
     padding: 10px 15px;
+}
+
+.acordion-historia {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px 20px 40px;
+    --bs-accordion-btn-focus-box-shadow: 0;
+}
+
+.acordion-historia-title {
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+    color: var(--blue2);
+}
+
+.acordion-historia-item {
+    border: 2px solid var(--yellow);
+}
+
+.acordion-historia-item .accordion-header button {
+    /* background-color: var(--blue2); */
+    color: var(--blue2);
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
+.acordion-historia .accordion-button:not(.collapsed) {
+    background-color: var(--yellow);
+}
+
+.acordion-historia-info {
+    height: 200px;
+    font-size: 14px;
+    overflow-y: scroll;
+    line-height: 20px;
+    border-top: 2px solid var(--yellow);
+    color: var(--blue2);
 }
 
 @media screen and (min-width: 768px) {
